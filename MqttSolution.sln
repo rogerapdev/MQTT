@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttBroker", "MqttBroker\MqttBroker.csproj", "{20E10D58-B451-43FB-B8F6-A31FC63D6357}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttClientTcp", "MqttClientTcp\MqttClientTcp.csproj", "{58896538-96F0-4B8C-989E-5DAAC2655D00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttClientSendReceive", "MqttClientSendReceive\MqttClientSendReceive.csproj", "{4A183358-8AB8-4D9D-A53B-DCF63501B6AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttClientReceiver", "MqttClientReceiver\MqttClientReceiver.csproj", "{B27DB8C2-50DE-4547-AAD4-D713A87199F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20E10D58-B451-43FB-B8F6-A31FC63D6357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E10D58-B451-43FB-B8F6-A31FC63D6357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E10D58-B451-43FB-B8F6-A31FC63D6357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E10D58-B451-43FB-B8F6-A31FC63D6357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58896538-96F0-4B8C-989E-5DAAC2655D00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58896538-96F0-4B8C-989E-5DAAC2655D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58896538-96F0-4B8C-989E-5DAAC2655D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58896538-96F0-4B8C-989E-5DAAC2655D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A183358-8AB8-4D9D-A53B-DCF63501B6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A183358-8AB8-4D9D-A53B-DCF63501B6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A183358-8AB8-4D9D-A53B-DCF63501B6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A183358-8AB8-4D9D-A53B-DCF63501B6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27DB8C2-50DE-4547-AAD4-D713A87199F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27DB8C2-50DE-4547-AAD4-D713A87199F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27DB8C2-50DE-4547-AAD4-D713A87199F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27DB8C2-50DE-4547-AAD4-D713A87199F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13663E91-727A-4CCE-91DF-690A8E6F9B2B}
+	EndGlobalSection
+EndGlobal
